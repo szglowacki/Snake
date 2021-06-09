@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox  fx:id="highscoreVBox" fx:controller="highscore.HighscoreWindowController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="562.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text fill="#379031" strokeType="OUTSIDE" strokeWidth="0.0" text="Ranking" textAlignment="CENTER" wrappingWidth="564.6708984375">
+            <font>
+                <Font name="OCR A Extended" size="40.0" />
+            </font>
+        </Text>
+        <ListView fx:id="rankingList" prefHeight="564.0" prefWidth="562.0" style="-fx-background-color: #000000;" />
+        <Button fx:id="backToMenu" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#goBack" prefHeight="41.0" prefWidth="561.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff;" text="Powrót do menu" textAlignment="CENTER" textFill="#379031">
+            <font>
+                <Font name="OCR A Extended" size="21.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+    </children>
+</VBox>
