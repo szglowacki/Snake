@@ -1,5 +1,5 @@
 package enums;
 
 public enum GameStateEnum {
-    WIN,LOSE,PLAY, STOPPED
+    WIN,LOSE,PLAY,STOPED
 }

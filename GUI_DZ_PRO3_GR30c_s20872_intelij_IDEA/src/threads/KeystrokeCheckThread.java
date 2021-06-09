@@ -27,7 +27,7 @@ public class KeystrokeCheckThread extends Thread {
             if(BoardData.isShiftDown && BoardData.isCtrlDown && BoardData.isQDown)
 
             {
-                BoardData.gameState = GameStateEnum.STOPPED;
+                BoardData.gameState = GameStateEnum.STOPED;
                 Platform.runLater(() ->
                 {
                     try {

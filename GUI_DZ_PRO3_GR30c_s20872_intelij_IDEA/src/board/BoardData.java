@@ -23,7 +23,7 @@ public class BoardData {
     static KeyEnum key = KeyEnum.RIGHT;
     static int score;
     static int timeCounter=0;
-    public static GameStateEnum gameState = GameStateEnum.STOPPED;
+    public static GameStateEnum gameState = GameStateEnum.STOPED;
 
     public static boolean isShiftDown,isCtrlDown,isQDown;
 
